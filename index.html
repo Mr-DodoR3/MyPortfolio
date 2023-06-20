@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>トップページ-KUTCプログラミング技術部</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="Image/dodo.ico">
+  </head>
+  
+  <body>
+    <div id="change" class="change"></div>
+    <script src="fade.js"></script>
+    
+    <header>
+      <div class="header" id="header">
+        <a href="index.html"><img class="logo" src="Image/dodo.jpg"></a>
+        <div class="headerList">
+          <ol class="headerURL">
+            <a href="#about"><li>About</li></a>
+            <a href="#profile"><li>Profile</li></a>
+            <a href="#skil"><li>Skil</li></a>
+            <a href="#content"><li>Content</li></a>
+          </ol>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="chapterBack">
+        <div class="chapter">
+          <h1 id="about">About</h1>
+          <div class="about">
+            <p>本サイトを閲覧していただき誠にありがとうございます。</p>
+            <p>このサイトは私、西半涼賀の高専時代に制作した作品などをまとめているサイトとなっております。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="chapterBack">
+          <div class="chapter">
+            <h1 id="profile">Profile</h1>
+            <div class="introduction">
+              <div class="introductionImage">
+                <img src="Image/dodo.jpg">
+              </div>
+              <div class="introductionMain">
+                <ol class="selfIntroduction">
+                  <li>Name:西半涼賀</li>
+                  <li>Birthday:2004/04/10</li>
+                  <li>School:近畿大学工業高等専門学校</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="chapterBack">
+          <div class="chapter">
+            <h1 id="skil">Skil</h1>
+            <div class="skil">
+              <h2>使用したことがある言語</h2>
+              <ol>
+                <li class="c">C/C++</li>
+                <li class="cs">C#</li>
+                <li class="java">Java</li>
+                <li class="html">HTML/CSS</li>
+                <li class="js">JavaScript</li>
+                <li class="py">Python</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="chapterBack">
+          <div class="chapter">
+            <h1 id="content">Content</h1>
+            <div class="contents">
+              <div class="content" id="content1">
+                <div class="contentImage"><img src="Image/kaisen.png"></div>
+                <div class="link"><h3>海戦</h3></div>
+                <p>使用言語・フレームワーク:Processing</p>
+                <div class="contentText">
+                  <p>Processingを用いたネットワーク通信実験の延長線上で制作した作品です。</p>
+                  <p>チェスのように王(このゲームでは戦艦)を取り合うゲームですが、チェスとは違い相手の駒に索敵するか隣接しないと相手の場所がわかりません。</p>
+                </div>
+              </div>
+
+              
+              <div class="content" id="content2">
+                <div class="contentImage"><img src="Image/breakout.png"></div>
+                <div class="link"><h3>ブロック崩し</h3></div>
+                <p>使用言語・フレームワーク:Processing</p>
+                <div class="contentText">
+                  <p>低学年の頃にプログラミング技術部の課題として出されたブロック崩しに大幅な改良を加えたものです。</p>
+                  <p>アイテムがあったり、コンボ要素があったりするほか演出にもこだわっています。</p>
+                </div>
+              </div>
+
+              <div class="content" id="content3">
+                <div class="contentImage"><img src="Image/skydance_ss.png"></div>
+                <div class="link"><h3>Sky Dance</h3></div>
+                <p>使用言語・フレームワーク:JavaScript, P5.js</p>
+                <div class="contentText">
+                  <p>p5.jsを使ってみたくて作ったシンプルなシューティングゲームです。</p>
+                </div>
+              </div>
+
+              <div class="content" id="content4">
+                <div class="contentImage"><img src="Image/algorithm.png"></div>
+                <div class="link"><h3>遺伝子アルゴリズム</h3></div>
+                <p>使用言語・フレームワーク:Processing</p>
+                <div class="contentText">
+                  <p>遺伝子アルゴリズムについて学ぶためにProcessingで作った作品です。</p>
+                  <p>黄色と青色のオブジェクトが赤い目的地に向かって進みます。</p>
+                </div>
+              </div>
+
+              <div class="content" id="content5">
+                <div class="contentImage"><img src="Image/tetris.png"></div>
+                <div class="link"><h3>テトリスもどき</h3></div>
+                <p>使用言語・フレームワーク:JavaScript</p>
+                <div class="contentText">
+                  <p>テトリス風のゲームです。</p>
+                  <p>快適にプレイできることを考えながら作りました。</p>
+                </div>
+              </div>
+
+              <div class="content" id="content6">
+                <div class="contentImage"><img src="Image/ninja.png"></div>
+                <div class="link"><h3>逃走忍者</h3></div>
+                <p>使用言語・フレームワーク:C++, DXライブラリ</p>
+                <div class="contentText">
+                  <p>障害物をよけながら先に進んでいくアクションゲームです。</p>
+                  <p>物が壊れる際のアニメーションにこだわりました。</p>
+                </div>
+              </div>
+
+              <div class="content" id="content7">
+                <div class="contentImage"><img src="Image/air.png"></div>
+                <div class="link"><h3>AircraftRun</h3></div>
+                <p>使用言語・フレームワーク:C#, Visual Stdio, Unity</p>
+                <div class="contentText">
+                  <p>3Dのシューティングゲームです。</p>
+                  <p>ミサイルの演出やレーダーの制作などにこだわりました。</p>
+                </div>
+              </div>
+
+              <div class="content" id="content8">
+                <div class="contentImage"><img src="Image/shape.png"></div>
+                <div class="link"><h3>シャープちゃん</h3></div>
+                <p>使用言語・フレームワーク:C#, Visual Stdio</p>
+                <div class="contentText">
+                  <p>デスクトップマスコットです。</p>
+                  <p>決められた内容しか話してくれませんが、最低限の受け答えはできるように作ってあります。</p>
+                </div>
+              </div>
+
+              <div class="content" id="content9">
+                <div class="contentImage"><img src="Image/himemiko.png"></div>
+                <div class="link"><h3>大来皇女をしのぶ会 のホームページ</h3></div>
+                <p>使用言語・フレームワーク:WordPress</p>
+                <div class="contentText">
+                  <p>NPO法人"大来皇女をしのぶ会"のホームページをボランティアとして制作させていただいています。</p>
+                </div>
+              </div>
+
+              <div class="content" id="content10">
+                <div class="contentImage"><img src="Image/harimura.png"></div>
+                <div class="link"><h3>張村</h3></div>
+                <p>使用言語・フレームワーク:C, STM32CubeIDE</p>
+                <div class="contentText">
+                  <p>"Championship of Robotics Engineers 2023"出場用に制作されたロボットの足回りとマイコン間の通信プログラムを制作させていただきました。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="space"></div>
+      <div class="footerContents">
+        <p class="copyright">&copy;Ryoga Nishihan</p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
